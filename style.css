@@ -1,0 +1,28 @@
+
+
+.correct{
+    color: rgb(60,179,113);
+    text-decoration: underline;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
+
+body {
+    height: 100%;
+  }
+  
+
+textarea {
+    width: 100%;
+    height: 100vh;
+    
+    /*Disable going back with the mouse (backspace only to prevent array comparison errors)*/
+    cursor: none;
+    pointer-events: none;
+    
+    /*remove the resize handle on the bottom right*/
+    resize: none; 
+}
