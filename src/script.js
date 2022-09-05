@@ -1,4 +1,4 @@
-const QUOTE_API_URL = "http://api.quotable.io/random"
+const QUOTE_API_URL = "https://api.quotable.io/random"
 
 const MAX_ARR_DIFF = 3;
 
